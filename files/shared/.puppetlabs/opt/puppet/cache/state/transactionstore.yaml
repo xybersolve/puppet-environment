@@ -1,0 +1,7 @@
+---
+resources:
+  Group[it]:
+    parameters:
+      ensure:
+        system_value:
+        - :absent

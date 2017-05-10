@@ -1,0 +1,9 @@
+#/bin/bash
+
+# [[ $# -ne 1 ]] && { echo  "$0 requires CSV file as first  argument.">&2; exit 1; }
+[[ $1 ]] || { echo "File name to read is required.">&2; exit 1; }
+
+while read first last city; do 
+    echo "$first $last"
+    echo "$city"
+done < $1

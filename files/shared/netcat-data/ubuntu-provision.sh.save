@@ -1,0 +1,14 @@
+/bin/bashexit
+
+
+wget https://apt.puppetlabs.com/puppetlabs-release-pc1-trusty.deb
+
+sudo apt-get -Uvh https://yum.puppetlabs.com/puppetlabs-release-pc1-e1-7.noarch.rpm
+
+
+
+#puppet master --version
+
+
+
+wget https://apt.puppetlabs.com/puppetlabs-release-pc1-trusty.deb

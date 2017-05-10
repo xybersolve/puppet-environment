@@ -1,0 +1,21 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# See README.md for details
+
+VAGRANTFILE_API_VERSION = "2"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+
+  config.vm.box = "puppetlabs/centos-7.2-64-nocm"
+
+  config.vm.define "puppetclient" do |puppetclient|
+  
+    puppetclient.vm.hostname = "puppetclient"
+  
+    puppetclient.vm.network "private_network", ip: "172.31.0.201"
+
+    puppetclient.vm.provision "shell", path: "puppetclient.sh"	  
+  end
+  
+end

@@ -1,0 +1,71 @@
+---
+File[/home/vagrant/.puppetlabs/etc/puppet]:
+  :checked: 2017-03-30 21:30:20.522633836 +00:00
+File[/home/vagrant/.puppetlabs/etc/code]:
+  :checked: 2017-03-30 21:30:20.523055397 +00:00
+File[/home/vagrant/.puppetlabs/opt/puppet/cache]:
+  :checked: 2017-03-30 21:30:20.523434378 +00:00
+File[/home/vagrant/.puppetlabs/var/log]:
+  :checked: 2017-03-30 21:30:20.524060350 +00:00
+  :synced: 2017-03-30 21:30:20.524642734 +00:00
+File[/home/vagrant/.puppetlabs/opt/puppet/cache/state]:
+  :checked: 2017-03-30 21:30:20.525537852 +00:00
+  :synced: 2017-03-30 21:30:20.526074296 +00:00
+File[/home/vagrant/.puppetlabs/var/run]:
+  :checked: 2017-03-30 21:30:20.526240390 +00:00
+File[/home/vagrant/.puppetlabs/opt/puppet/cache/lib]:
+  :checked: 2017-03-30 21:30:20.527141478 +00:00
+File[/home/vagrant/.puppetlabs/opt/puppet/cache/preview]:
+  :checked: 2017-03-30 21:30:20.527736255 +00:00
+  :synced: 2017-03-30 21:30:20.528281793 +00:00
+File[/home/vagrant/.puppetlabs/etc/puppet/ssl]:
+  :checked: 2017-03-30 21:30:20.528832884 +00:00
+  :synced: 2017-03-30 21:30:20.529349954 +00:00
+File[/home/vagrant/.puppetlabs/etc/puppet/ssl/certs]:
+  :checked: 2017-03-30 21:30:20.530495029 +00:00
+File[/home/vagrant/.puppetlabs/etc/puppet/ssl/public_keys]:
+  :checked: 2017-03-30 21:30:20.531956521 +00:00
+File[/home/vagrant/.puppetlabs/etc/puppet/ssl/certificate_requests]:
+  :checked: 2017-03-30 21:30:20.533265957 +00:00
+File[/home/vagrant/.puppetlabs/etc/puppet/ssl/private_keys]:
+  :checked: 2017-03-30 21:30:20.534179670 +00:00
+  :synced: 2017-03-30 21:30:20.534669608 +00:00
+File[/home/vagrant/.puppetlabs/etc/puppet/ssl/private]:
+  :checked: 2017-03-30 21:30:20.535299150 +00:00
+  :synced: 2017-03-30 21:30:20.536020642 +00:00
+File[/home/vagrant/.puppetlabs/opt/puppet/cache/client_yaml]:
+  :checked: 2017-03-30 21:30:20.536832460 +00:00
+  :synced: 2017-03-30 21:30:20.537712593 +00:00
+File[/home/vagrant/.puppetlabs/opt/puppet/cache/client_data]:
+  :checked: 2017-03-30 21:30:20.538476765 +00:00
+  :synced: 2017-03-30 21:30:20.538970777 +00:00
+File[/home/vagrant/.puppetlabs/opt/puppet/cache/clientbucket]:
+  :checked: 2017-03-30 21:30:20.539667083 +00:00
+  :synced: 2017-03-30 21:30:20.540173017 +00:00
+File[/home/vagrant/.puppetlabs/opt/puppet/cache/state/graphs]:
+  :checked: 2017-03-30 21:30:20.540440343 +00:00
+File[/home/vagrant/.puppetlabs/opt/puppet/cache/facts.d]:
+  :checked: 2017-03-30 21:30:20.540894949 +00:00
+:configuration: {}
+Stage[main]:
+  :checked: 2017-03-30 21:30:20.842299799 +00:00
+Class[Settings]:
+  :checked: 2017-03-30 21:30:20.842546075 +00:00
+Class[Main]:
+  :checked: 2017-03-30 21:30:20.842651137 +00:00
+Group[it]:
+  :checked: 2017-03-30 21:30:20.843071971 +00:00
+Schedule[puppet]:
+  :checked: 2017-03-30 21:30:20.850559271 +00:00
+Schedule[hourly]:
+  :checked: 2017-03-30 21:30:20.850709242 +00:00
+Schedule[daily]:
+  :checked: 2017-03-30 21:30:20.850802447 +00:00
+Schedule[weekly]:
+  :checked: 2017-03-30 21:30:20.850944549 +00:00
+Schedule[monthly]:
+  :checked: 2017-03-30 21:30:20.851092363 +00:00
+Schedule[never]:
+  :checked: 2017-03-30 21:30:20.851174944 +00:00
+Filebucket[puppet]:
+  :checked: 2017-03-30 21:30:20.851362486 +00:00
